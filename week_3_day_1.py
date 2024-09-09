@@ -50,23 +50,29 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 17
 # 2. name
+name = "Lilly"
 # 3. song
+song = "Saturn"
 # 4. food
+food = "flautas"
 # 5. number
+number = 3
 
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
+print ("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
 
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+print ("liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing. ")
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
-
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+print ("Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code every day. Maybe " + song + " was " + name + "’s secret power? ")
+# ##########################################################################################
 
 
 
@@ -102,21 +108,21 @@
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# 1st_name --> first_name
+# last name--> lastName
+# email@address--> emailAddress
+# percent%--> percent
+# variable#name-->variableName
+# O--> zero
+# list--> checklist
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
-# The first name of a person
-# The last name of a person
-# The email address of a person
-# The percentage of marks obtained by a student
-# A variable to store the number of items in a shopping cart
+# The first name of a person --> firstName
+# The last name of a person --> last_name
+# The email address of a person --> 
+# The percentage of marks obtained by a student -->
+# A variable to store the number of items in a shopping cart -->
 
 
 
