@@ -155,55 +155,55 @@
 
 
 
-############################################################################################
+# ############################################################################################
 
 
-# # **Working with** **numbers** **bold text**
-# We'll learn about the following topics:
-# 1. Types of Numbers in Python
-# 2. Basic Arithmetic
-# 3. Differences between classic division and floor division
+# # # **Working with** **numbers** **bold text**
+# # We'll learn about the following topics:
+# # 1. Types of Numbers in Python
+# # 2. Basic Arithmetic
+# # 3. Differences between classic division and floor division
 
 
-# Python has various "types" of numbers (numeric literals).
-# 1. We'll mainly focus on integers and floating point numbers.
-# Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
-# 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
+# # Python has various "types" of numbers (numeric literals).
+# # 1. We'll mainly focus on integers and floating point numbers.
+# # Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
+# # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-print(2+2)
-# #multiplication
-print(2 * 2)
-# #division
-print(2 / 2)
-# #modulo or remainder
-print(2 % 2)
-# #powers
-print(2 ** 2)
-# #get the max and min of a number
-print(max(2,3))
-print(min(2,3))
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2 + 10 * 10 + 3)
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method 
-# always rounds down 
-print(floor(3.7))
-print(floor(3.3))
-# #ceil method
-# always rounds up
-print(ceil(3.7))
-print(ceil(3.3))
-# #sqrt method square root (number multiplied by itself)
-print(sqrt(36))
+# ##########################################################################################
+# # #addition
+# print(2+2)
+# # #multiplication
+# print(2 * 2)
+# # #division
+# print(2 / 2)
+# # #modulo or remainder
+# print(2 % 2)
+# # #powers
+# print(2 ** 2)
+# # #get the max and min of a number
+# print(max(2,3))
+# print(min(2,3))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2 + 10 * 10 + 3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method 
+# # always rounds down 
+# print(floor(3.7))
+# print(floor(3.3))
+# # #ceil method
+# # always rounds up
+# print(ceil(3.7))
+# print(ceil(3.3))
+# # #sqrt method square root (number multiplied by itself)
+# print(sqrt(36))
 
 
 
@@ -224,15 +224,22 @@ print(sqrt(36))
 # input("what is your name?")
 # # basic math calculator
 # #ask the user for 2 numbers
+number1 = input("Input a number. ")
+number2 = input("Input another number. ")
+number3 = input("What number do you need rounded?")
 # # print out a statement where you:
 # # add them together
+print(int(number1) + int(number2))
 # #multiply
+print(int(number1) * int(number2))
 # # find the max number
+print(max(int(number1), int(number2)))
 # # find the remainder of the numbers
+print(int(number1) % int(number2))
 # #round one number
+print(round(float(number3)))
 
-
-
+ 
 
 
 
