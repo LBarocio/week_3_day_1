@@ -1,19 +1,16 @@
-# # Week3
-# # This week we will work on :
-# # Working With Strings
+# # # Week3
+# # # This week we will work on :
+# # # Working With Strings
 
 
-# # 1.   Working With Numbers
-# # 2.   Getting Input From Users
-
-
-
-
-# # 1.   Building a Basic Calculator
-# # 2.   Mad Libs Game
+# # # 1.   Working With Numbers
+# # # 2.   Getting Input From Users
 
 
 
+
+# # # 1.   Building a Basic Calculator
+# # # 2.   Mad Libs Game
 
 
 
@@ -47,32 +44,35 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age = 17
-# 2. name
-name = "Lilly"
-# 3. song
-song = "Saturn"
-# 4. food
-food = "flautas"
-# 5. number
-number = 3
 
 
-# #now include the variables you just made print in the following...
+
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = 17
+# # 2. name
+# name = "Lilly"
+# # 3. song
+# song = "Saturn"
+# # 4. food
+# food = "flautas"
+# # 5. number
+# number = 3
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print ("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+# # #now include the variables you just made print in the following...
 
-# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print ("liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing. ")
 
-# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print ("Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code every day. Maybe " + song + " was " + name + "’s secret power? ")
-# ##########################################################################################
+# # Once upon a time, there was a [age] old coder named [name].
+# print ("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+
+# # # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print ("liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + " would stop singing. ")
+
+# # # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print ("Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code every day. Maybe " + song + " was " + name + "’s secret power? ")
+# # ##########################################################################################
 
 
 
@@ -114,15 +114,15 @@ print ("Still, " + name + " was the best coder on the team and could write " + s
 # percent%--> percent
 # variable#name-->variableName
 # O--> zero
-# list--> checklist
+# list--> list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
 # The first name of a person --> firstName
 # The last name of a person --> last_name
-# The email address of a person --> 
-# The percentage of marks obtained by a student -->
-# A variable to store the number of items in a shopping cart -->
+# The email address of a person --> email_address
+# The percentage of marks obtained by a student --> stuPercent
+# A variable to store the number of items in a shopping cart --> numItems
 
 
 
@@ -130,15 +130,15 @@ print ("Still, " + name + " was the best coder on the team and could write " + s
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 
-# first_name
-# lastName
-# email_address
-# percentage
-# variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# first_name --> valid
+# lastName --> valid
+# email_address --> valid
+# percentage --> valid
+# variable_name --> valid
+# 1_variable --> invalid
+# email@address --> invalid
+# percentage% --> invalid
+# i --> invalid could be something like illinois 
 
 
 
@@ -173,21 +173,37 @@ print ("Still, " + name + " was the best coder on the team and could write " + s
 
 ##########################################################################################
 # #addition
+print(2+2)
 # #multiplication
+print(2 * 2)
 # #division
-# #modulo
+print(2 / 2)
+# #modulo or remainder
+print(2 % 2)
 # #powers
+print(2 ** 2)
 # #get the max and min of a number
+print(max(2,3))
+print(min(2,3))
 # #round a number
+print(round(2.5))
 # # absolute value
+print(abs(-2))
 # # order of operations
+print(2 + 10 * 10 + 3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
-# #floor method
+# #floor method 
+# always rounds down 
+print(floor(3.7))
+print(floor(3.3))
 # #ceil method
-# #sqrt method
-
+# always rounds up
+print(ceil(3.7))
+print(ceil(3.3))
+# #sqrt method square root (number multiplied by itself)
+print(sqrt(36))
 
 
 
